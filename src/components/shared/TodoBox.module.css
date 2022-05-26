@@ -1,0 +1,22 @@
+.todoBox{
+    border: 1px solid;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.ischecked{
+    text-decoration: line-through;
+}
+.todoBox button{
+    padding: 1px 6px;
+    border: none;
+    border-radius: 5px;
+    color: ghostwhite;
+    background-color: darkgray;
+}
+.todoBox input[type=text]{
+    border: none;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}

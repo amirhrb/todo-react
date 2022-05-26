@@ -1,0 +1,41 @@
+.inputPart{
+    width: 300px;
+    height: fit-content;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inputPart form{
+    display: flex;
+}
+.inputPart form select{
+    border-radius: 5px;
+}
+.inputPart button{
+    /* width: max-content; */
+    padding: 1px 6px;
+    border: none;
+    border-radius: 5px;
+    color: ghostwhite;
+    background-color: darkgray;
+}
+.inputPart input[type=text]{
+    margin:auto 15px;
+    border: 0.5px solid dimgrey;
+    border-radius: 5px;
+}
+.todoMenu{
+    margin: 15px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    gap: 10px;
+}
+.addNewBtn{
+    margin: 15px;
+    padding: 1px 6px;
+    border: none;
+    border-radius: 5px;
+    color: ghostwhite;
+    background-color: darkgray;
+}
