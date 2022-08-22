@@ -1,3 +1,4 @@
-# Todo App created by ReactJS(context, reducer are used), MUI,...
+# Todo App created by ReactJS
+React Concepts(context, reducer are used), MUI, uuidv4, ...
 
-You can see the result [Here](https://github.com/facebook/create-react-app).
+You can see the result [Here](https://todo-react-amirhrb.vercel.app).
