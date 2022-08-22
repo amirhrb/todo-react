@@ -16,6 +16,15 @@ const Theme = ({ children }) => {
           background: {
             default: prefersDarkMode ? "#121212" : "#fefefe",
           },
+          primary: {
+            main: "#006a6a",
+          },
+          secondary: {
+            main: "#29b6f6",
+          },
+          error: {
+            main: "#ef5350",
+          },
         },
         typography: {
           fontFamily: "YekanBakh",
